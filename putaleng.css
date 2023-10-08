@@ -1,0 +1,330 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+#wrapper {
+    
+    width: 100%;
+    height: 100vh;
+}
+#header {
+    width: 100%;
+    padding:0px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+#menu {
+    list-style:none;
+    display: flex;
+}
+
+#menu .item {
+    margin:0px 25px;
+}
+
+#menu .item a {
+    color:#626A67;
+    text-decoration: none;
+}
+
+
+#actions {
+    display: flex;
+}
+
+#actions .item {
+    margin-left:22px;
+}
+
+
+
+
+#footer {
+    width: 100%;
+    background:rgb(0,0,0,0.79);
+    height: 322px;
+    margin-top:280px;
+    padding:0px 63px;
+    padding-top:57px;
+    display: flex;
+    justify-content: space-around;
+}
+.img{
+    height: 174px;
+    width: 256px;
+
+}
+#footer .box {
+    width: 250px;
+    color:#fff;
+}
+
+#footer .box .quick-menu {
+    margin-top:40px;
+
+}
+
+
+#footer .box .quick-menu .item{
+    margin-bottom:12px;
+
+}
+#footer .box .quick-menu ,.item a{
+    color:#fff;
+    text-decoration: none;
+}
+
+
+
+#footer .box form input {
+    width: 294px;
+    height: 42px;
+    background:transparent;
+    padding-left:20px;
+    color:#fff;
+    margin-top:30px;
+}
+
+#footer .box form button {
+    background:#362f2f;
+    box-shadow: 5px 5px 4px rgba(0,0,0.25);
+    width: 163px;
+    height: 38px;
+    margin-top:29px;
+    color:#fff;
+}
+
+#banner {
+    width: 100%;
+    background-image: url(https://i.ytimg.com/vi/I3gaWDC7YwY/maxresdefault.jpg);
+    height: 550px;
+    margin-top: 40px;
+    display: flex;
+    padding: 0px 100px;
+    position: relative;
+    background-repeat: no-repeat; 
+    background-size: 100% auto; 
+    background-position: 100% 60%; 
+}
+
+
+
+#banner .box-left ,#banner .box-right {
+    width: 50%;
+}
+
+#banner  .box-left h2 {
+    font-size:48px;
+    margin-top:75px;
+    color:hsla(202, 71%, 42%, 0.667);
+}
+
+#banner .box-left p {
+    color:#D0D0D0;
+}
+
+#banner .box-left button {
+    width: 191px;
+    height: 40px;
+    margin-top:60%;
+    margin-left: 85%;
+    background:rgb(0, 115, 255);
+    border:none;
+    outline:none;
+    color:#fff;
+    font-weight: bold;
+    border-radius: 20px;
+    transition:0.4s;
+    justify-content: center;
+    align-items: center; 
+}
+
+#banner .box-left button:hover {
+    background:rgb(81, 101, 126);
+}
+
+#banner .box-right {
+    padding-left:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner .box-right img {
+    margin:0px 10px;
+    animation :animation 3s infinite linear; 
+}
+
+
+#banner .box-right img:nth-child(1)
+{
+    animation-delay: 0.5s;
+}
+#banner .box-right img:nth-child(2)
+{
+    
+    animation-delay: 1s;
+}
+
+.detail {
+    padding-top: 50px; 
+    background-color: #fff;
+    width: 80%;
+    margin: 0 auto; 
+}
+
+
+.detail .hello {
+    padding-top: 10px;
+    background-color: rgba(170, 173, 175, 0.295);
+    border-radius: 10px;
+    height: 100px;
+    margin-bottom: 50px;
+    
+}
+.detail .hello ul {
+    text-align: center; 
+    line-height: 2;
+}
+
+.detail .hello li {
+    display: block; 
+}
+
+
+.detail ul li i {
+    margin-right: 5px;
+}
+
+.detail ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.detail .hello ul li {
+    padding: 20px 35px 40px !important;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.detail .hello ul li i {
+    color: dodgerblue;
+}
+
+.detail .infor {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    padding-bottom: 20px;
+}
+
+.detail .infor span {
+    display: block;
+    margin-bottom: 30px;
+    font-size: inherit;
+}
+.detail .infors p {
+    font-size: 30px;
+}
+
+.detail .infors {    
+    padding-bottom: 30px;
+    font-size: inherit;
+}
+.detail.note{
+    font-family: Arial, sans-serif;
+    color: #555;
+    font-size: inherit;
+    
+}
+.note{
+    margin-bottom: 30px;
+}
+.note ul {
+   
+    column-count: 2;
+}
+
+.note li {
+    margin-bottom: 20px; 
+}
+
+.note li i {
+    margin-right: 10px; 
+    font-weight: bold; 
+    color: dodgerblue;
+    padding-bottom: 20px;
+}
+
+.note li span {
+    font-size: 18px;
+}
+
+.inst {
+    display: flex;
+}
+
+
+.inst .left {
+    flex: 60%; 
+}
+
+.inst .right {
+    flex: 40%; 
+}
+
+.inst .left img {
+    width: 100%;
+    
+}
+.inst .right .s {
+    margin-top: 50px;
+    margin-left: 50px; 
+}
+
+.inst ul {
+    margin-left: 20px;
+}
+
+.inst ul li {
+    margin-bottom: 40px;
+    
+}
+
+
+.note2 img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff; 
+    z-index: 999; 
+  
+}
+
+.logo,
+#menu,
+#actions {
+    display: flex;
+
+
+  
+}
+
+
+

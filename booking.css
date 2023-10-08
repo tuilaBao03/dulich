@@ -1,0 +1,309 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+#wrapper {
+    width: 100%;
+    height: 100vh;
+}
+#header {
+    width: 100%;
+    padding:0px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+#menu {
+    list-style:none;
+    display: flex;
+}
+
+#menu .item {
+    margin:0px 25px;
+}
+
+#menu .item a {
+    color:#626A67;
+    text-decoration: none;
+}
+
+
+#actions {
+    display: flex;
+}
+
+#actions .item {
+    margin-left:22px;
+}
+
+
+
+
+#footer {
+    width: 100%;
+    background:rgb(0,0,0,0.79);
+    height: 322px;
+    margin-top:280px;
+    padding:0px 63px;
+    padding-top:57px;
+    display: flex;
+    justify-content: space-around;
+}
+.img{
+    height: 174px;
+    width: 256px;
+
+}
+#footer .box {
+    width: 250px;
+    color:#fff;
+}
+
+#footer .box .quick-menu {
+    margin-top:40px;
+
+}
+
+
+#footer .box .quick-menu .item{
+    margin-bottom:12px;
+
+}
+#footer .box .quick-menu ,.item a{
+    color:#fff;
+    text-decoration: none;
+}
+
+
+
+#footer .box form input {
+    width: 294px;
+    height: 42px;
+    background:transparent;
+    padding-left:20px;
+    color:#fff;
+    margin-top:30px;
+}
+
+#footer .box form button {
+    background:#362f2f;
+    box-shadow: 5px 5px 4px rgba(0,0,0.25);
+    width: 163px;
+    height: 38px;
+    margin-top:29px;
+    color:#fff;
+}
+
+#banner {
+    width: 100%;
+    background-image: url(https://viettrekking.vn/wp-content/uploads/2021/10/tour-leo-nui-chinh-phuc-dinh-ngu-chi-son.jpg);
+    height: 550px;
+    margin-top: 40px;
+    display: flex;
+    padding: 0px 100px;
+    position: relative;
+    background-repeat: no-repeat; 
+    background-size: 100% auto; 
+    background-position: 100% 40%; 
+}
+
+
+
+#banner .box-left ,#banner .box-right {
+    width: 50%;
+}
+
+#banner  .box-left h2 {
+    font-size:48px;
+    margin-top:75px;
+    color:hsla(202, 71%, 42%, 0.667);
+}
+
+#banner .box-left p {
+    color:#D0D0D0;
+}
+
+#banner .box-left button {
+    width: 191px;
+    height: 40px;
+    margin-top:60%;
+    margin-left: 85%;
+    background:rgb(97, 110, 124);
+    border:none;
+    outline:none;
+    color:#fff;
+    font-weight: bold;
+    border-radius: 20px;
+    transition:0.4s;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; 
+}
+
+#banner .box-left button:hover {
+    background:rgba(27, 110, 210, 0.879);
+}
+
+#banner .box-right {
+    padding-left:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner .box-right img {
+    margin:0px 10px;
+    animation :animation 3s infinite linear; 
+}
+
+
+#banner .box-right img:nth-child(1)
+{
+    animation-delay: 0.5s;
+}
+#banner .box-right img:nth-child(2)
+{
+    
+    animation-delay: 1s;
+}
+
+.detail {
+    padding-top: 50px; 
+    background-color: #fff;
+    width: 80%;
+    margin: 0 auto; 
+}
+
+
+.detail .hello {
+    padding-top: 10px;
+    background-color: rgba(87, 144, 217, 0.295);
+    border-radius: 10px;
+    height: 100px;
+    margin-bottom: 50px;
+    
+}
+.detail .hello ul {
+    text-align: center; 
+    line-height: 2;
+}
+
+.detail .hello li {
+    display: block; 
+}
+
+
+.detail ul li i {
+    margin-right: 5px;
+}
+
+.detail ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.detail .hello ul li {
+    padding: 20px 35px 40px !important;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.detail .hello ul li i {
+    color: dodgerblue;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 20px; 
+}
+
+.wrapper .item {
+    background-color: rgba(87, 144, 217, 0.295);
+    padding: 20px;
+    text-align: center;
+    height: 500px;
+    border-radius: 5px;
+}
+.wrapper .item:hover {
+    transform: scale(1.1); 
+}
+.img img {
+    max-width: 100%; 
+    height: auto; 
+    border: 10px solid white; 
+    box-sizing: border-box; 
+    width: 300px; 
+    height: 200px;
+    padding-bottom:8px;
+}
+
+.item:hover {
+    transform: scale(1.1);
+}
+.noidung {
+    padding-top: 40px; 
+    text-align: left; 
+    font-family: Arial, sans-serif;
+    color: #555;
+    font-size: inherit;
+}
+.noidung li {
+    margin-bottom: 10px; 
+    font-family: Arial, sans-serif;
+   
+    font-size: inherit;
+}
+.noidung p i {
+    color: dodgerblue; 
+}
+.noidung h2 {
+    font-size: 20px; 
+    margin-top: 15px; 
+}
+
+.noidung p {
+    font-size: 15px; 
+    margin-top: 10px;
+}
+
+.noidung span {
+    font-weight: bold;
+}
+
+
+.noidung .fas {
+    margin-right: 5px; 
+    
+}
+.noidung p span {
+    font-size: 25px;
+    color: red; 
+    font-weight: bold;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff; 
+    z-index: 999; 
+  
+}
+
+.logo,
+#menu,
+#actions {
+    display: flex;
+}
+
+  
+  
+
+
+
